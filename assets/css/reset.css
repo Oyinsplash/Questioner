@@ -1,0 +1,89 @@
+body{
+        margin: 0;
+        padding: 0;
+        background:white;
+    }
+
+
+
+.resetbox{
+    width: 450px;
+    height: 42px;
+    background: transparent;
+    top: 35%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 50px 30px;
+}
+
+form{
+    background: whitesmoke;
+    box-shadow:  0 0 14px 4px lightgrey;
+    border-radius: 5%;
+}
+
+p{
+    margin:0;
+    padding: 15px 0 10px;
+    text-align: center;
+    color: white;
+    background-color: #f68A17;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    color: #fff;
+    font-family: apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.info{
+    padding: 5% 0 0 16%;
+}
+
+.resetbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.buttonbox{
+    width: 100%;
+    padding-left: 16%;
+    
+}
+
+.resetbox input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #f68A17;
+    background: transparent;
+    outline: none;
+    width: 80%;
+    line-height: 2rem;
+    color: rgb(66, 46, 2);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;    
+}
+
+.resetbox input[type="submit"]
+{
+    border: none;
+    background: #f68A17;
+    outline: none;
+    color: rgb(66, 46, 2);
+    width: 68%;
+    font-family: apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 600;
+}
+
+.resetbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc102;
+    color: black;
+}
