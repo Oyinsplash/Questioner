@@ -1,0 +1,274 @@
+body{
+    padding:0;
+    margin:0;
+}
+
+.navbar{
+ display:flex;
+ background: black;
+ color: #f68A17;
+padding: 0.9rem 2rem;
+justify-content:space-between;
+align-items: center;
+box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+.navbar-logo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   /* font-style: oblique; */
+font-weight: bold;
+font-size: 1.2rem;
+text-shadow: 0 .125rem .25rem rgba(0,0,0,.075)
+}
+/* .navbar-content{
+    margin-right:1rem;
+} */
+a.nav-link{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    border : 1px solid #f68A17;
+    padding : 0.3rem 1rem;
+    border-radius: 0.25rem;
+    font-size : 0.9rem;
+    color:#f68A17;
+    transition: all ease-in-out 0.3s;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)
+}
+a.nav-link:hover{
+    border : 1px solid #fff;
+}
+.edit-password:hover{
+    border : 1px solid #F97300;
+    /* color:#f68A17 */
+}
+.profile-section{
+    background: #EEEEEE;
+    padding: 0.9rem 3.5rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all ease-in-out 0.3s;
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+}
+.profile-name{
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 1.5rem;
+color: #f68A17;
+}
+.welcome{
+    font-size : 0.8rem;
+}
+.email-wrapper{
+font-family: monospace;
+font-size: 0.8rem;
+margin-bottom:.6rem;
+color: #f68A17;
+}
+.edit-password{
+font-size: 0.7rem;
+text-decoration: none;
+border : 1px solid rgba(97, 29, 29, 0.363);
+padding : 0.3rem 0.8rem;
+border-radius: 0.25rem;
+color:#000;
+transition: all ease-in-out 0.3s;
+box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)
+}
+.profile-wrapper{
+    text-shadow: 0 .125rem .25rem rgba(0,0,0,.075)
+}
+.activity-wrapper{
+display:flex;
+}
+.Question,.Comments{
+text-align: center;
+font-size: 1.2rem;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: 600;
+text-shadow: 0 .125rem .25rem rgba(0,0,0,.075)
+}
+.Question span,.Comments span {
+    font-size: 0.8rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    padding:0.6rem; 
+    
+}
+.divider{
+width:2px;
+background: rgba(97, 29, 29, 0.363);
+display: block;
+}
+.body-content-container{
+    padding: 0.9rem 3.5rem;
+}
+.star-icon{
+font-size:2rem;
+color: #f68A17;
+}
+.feed-header{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: rgb(30, 31, 32);
+    stroke: transparent;
+    fill: rgba(0,0,0,.54);
+}
+.meetup-link{
+text-decoration:none;
+color:#000;
+background-color: #EEEEEE;
+border : 1px solid #EEEEEE;
+padding : 0.3rem 0.8rem;
+border-radius: 0.9rem;
+transition: all ease-in-out 0.3s;
+box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+font-size: 0.8rem;
+}
+.meetup-link:hover{
+    border-color: rgba(97, 29, 29, 0.363)
+}
+.content-header{
+display: flex;
+justify-content: space-between;
+align-items : center;
+}
+.body-content-wrapper{
+width: 80%;
+margin-left:auto;
+margin-right:auto;
+}
+.question-details{
+display:flex;
+justify-content: space-between;
+margin-top:1rem;
+}
+.vote-section{
+display: flex;
+}
+
+.question-text{
+    font-size: 1rem;
+    line-height: 1.25;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    stroke: transparent;
+    fill: rgba(0,0,0,.54);
+    text-transform: uppercase;
+    color: rgb(30, 31, 32);
+}
+.question-feed-wrapper{
+margin-bottom:1rem;
+margin-top:1rem;
+margin-right:auto;
+box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+border-radius: .25rem!important;
+display:flex;
+}
+.question-line{
+background: #f68A17;
+width:0.25rem;
+border-top-left-radius: .25rem;
+border-bottom-left-radius: .25rem;
+}
+.question-feed{
+    display: inline-block;
+padding:1rem 1.2rem;
+background: #fff;
+width : 96%;
+margin-left:auto;
+margin-right:auto;
+}
+.meetup-section{
+    stroke: transparent;
+    fill: rgba(0,0,0,.54);
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1.6;
+    color: rgba(0,0,0,.54);
+    font-family: "Graphik Meetup",helvetica,arial,sans-serif;
+}
+.vote-section{
+    margin-right: 0rem;
+    font-size: 0.7rem;
+}
+.downvote{
+margin-left:0.45rem;
+}
+.all-content-wrapper{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    padding-top:1.2rem;
+}
+.meet-date{
+text-align:center;
+}
+.meetup-list{
+    display: flex;
+    align-items: center;
+    border-bottom : 1px solid #eff0f1;
+    padding : 0.5rem 1rem;
+    border-left:1px solid #e4e6e8;
+    border-right: 1px solid #e4e6e8;
+}
+.meetup-list-content{
+   width: 36%;
+    padding-top:1rem;
+    position:sticky;
+    top:0;
+    /* border-bottom:1px solid #e4e6e8; */
+}
+.meet-details{
+margin-left:3rem;
+}
+.meetup-tags{
+    margin-top:0.5rem;
+    margin-bottom : 0.5rem;
+font-size: .7rem;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 500;
+}
+.meetup-day{
+    font-size: 1.4rem;
+    
+}
+.meet-date{
+    font-family: monospace;
+    font-weight: 600;
+}
+.upcoming-meetup-header{
+text-align:center;
+font-size : 0.9rem;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background:#EEEEEE;
+padding : 1rem;
+font-weight: bold;
+text-transform: uppercase;
+}
+.tag{
+    font-size: 0.7rem;
+    padding: .1rem .4rem;
+    border-radius: 0.2rem;
+    margin-left: 0.6rem;
+    background:#cfd8dc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.meetup-location,.meetup-time{
+    font-size: .7rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+.meetup-time{
+    margin-top:0.5rem;
+}
+.meetup-title{
+font-size : 1.2rem;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color:#f68A17;
+}
+.main-body-content{
+width:57%;
+}

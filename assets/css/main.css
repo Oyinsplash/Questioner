@@ -1,0 +1,86 @@
+body{
+    padding:40px;
+    background-color: rgb(39, 50, 54);
+    background-image: url("../img/bckgrd.png");
+    background-attachment:fixed;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 100%;
+    margin: 4rem;
+}
+
+.logo{
+    color: #fff;
+    font-style: oblique;
+    font-size: 4.4em;
+}
+
+.logo:hover{
+    color: #f68A17;
+    text-shadow: 1px 0 20px #fff;
+}
+.logo-container{
+margin-bottom: -2rem;
+}
+
+.main{
+    color: #fff;
+    font-family: verdana;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: -1rem;
+}
+.main-container{
+   
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+span{
+    color: #f68A17;
+}
+
+p{
+    color:#fff;
+    font-size: 1.3em;
+    font-style: verdana;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: #ffc102;
+    color: white;
+    border: 0px;
+}
+.register-button{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    font-size: 1em;
+    border-radius: 10px;
+    padding: 10px 65px 10px 65px;
+    margin-right: 1rem;
+}
+.sign-in-button{
+    background-color: #f68A17;
+    color: white;
+    border: medium;
+    font-size: 1.0em;
+    border-radius: 10px;
+    padding: 10px 65px 10px 65px;
+    margin-left: 1rem;
+}
+.button-container{
+    max-width: 60%;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}

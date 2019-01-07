@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>create-meetup</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/create-meetup.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/profile.css" />
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="navbar-logo">Questioner</div>
+        <div class="navbar-content"><a href="index.html" class="nav-link" >log Out</a></div>
+         </nav>
+        <div class="sidenav">
+                <a href="#" id="create">Create a meetup</a>
+                <a href="#" id="meetUpList">Manage meetups</a>
+        </div>
+              
+              <!-- Page content -->
+        <div class="create-meetup">
+            <form>
+
+                <div class="details">
+
+                    <div class="title">
+                        <P>What will your meetup be called?</P>
+                        <input type="text" name="title">
+                    </div>
+                    <div class="description">
+                        <P>What will your meetup be about? (<span>Add tags</span>)</P>
+                        <input type="text" name="description" placeholder="example: Africa, technology, women"></textarea>
+                    </div>
+                    <div class="venue">
+                        <P>Where will your meetup be held?</P>
+                        <input type="text" name="venue">
+                    </div>
+                    <div class="start">
+                        <P>At what time will your meetup start?</P>
+                        <input type="time" name="usr_time">
+                    </div>
+                    <div class="time">
+                        <P>At what time will your meetup end?</P>
+                        <input type="time" name="usr_time">
+                    </div>
+                    <div class="month">
+                        <P>On what date will your meetup be held?</P>
+                        <input type="month" name="bdaymonth">
+                    </div>
+                
+                    <div class="upload">
+                        <input type="file" name="pic" accept="image/*">
+                    </div>
+                    
+                    <div class="submit">
+                        <input type="submit">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="manage-meetups display-none">
+            <table>
+                <tr>
+                    <th>Topic</th>
+                    <th>Created On</th> 
+                    <th>Happening On</th>
+                    <th>Tags</th>
+                    <th>No of Questions</th>
+                    <th>No of Comments</th>
+                    <th>Action</th>
+                    </tr>
+                <tr>
+                    <td>Women in Tech</td>
+                    <td>12-29-2018</td> 
+                    <td>14-01-2019</td>
+                    <td>technology, girlpower, girls, women, female</td>
+                    <td>12</td>
+                    <td>10</td>
+                    <td><button>delete</button></td>
+                </tr>
+                <tr>
+                    <td>Women in Tech</td>
+                    <td>12-29-2018</td> 
+                    <td>14-01-2019</td>
+                    <td>technology, girlpower, girls, women, female</td>
+                    <td>12</td>
+                    <td>10</td>
+                    <td><button>delete</button></td>
+                </tr>
+            </table>
+        </div>
+    <script src="assets/js/create-meetup.js"></script>
+</body>
+</html>
